@@ -15,3 +15,10 @@ The project uses
 tech stack: Docker container, python, dbt 
 Database: pgsql
 
+Folder structure:
+Custom_postgres : folder contains dbt files like project.yaml, containes SQL scripts, schema. sql where you can find the description and tests on each column
+
+etl: this folder contains a python script for etl which extracts data from source postgres container and dumps it in a file and then loads data from this file to destination postgresql 
+the script checks connection to databases also. 
+
+docker_compose.yaml:the yaml file states the container services required as stated at the start of this readme doc. it also states the docker network📡 for this project and it's type. 
