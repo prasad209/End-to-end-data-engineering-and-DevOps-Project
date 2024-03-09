@@ -50,9 +50,9 @@ t2 = DockerOperator(
     docker_url="unix://var/run/docker.sock",
     network_mode="bridge" ,
     mounts=[
-        Mount(source="C:/Users/Prasad/test",
+        Mount(source='F:/elt/custom_postgres',
               target='/dbt', type='bind'),
-        Mount(source="C:/Users/Prasad/.dbt",
+        Mount(source='C:/Users/Prasad/.dbt',
               target= '/root',type='bind')
 
         
