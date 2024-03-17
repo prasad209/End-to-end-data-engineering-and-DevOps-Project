@@ -1,4 +1,4 @@
-docker compose up init-airflow -d
+docker compose up init-airflow 
 
 sleep 5
 
