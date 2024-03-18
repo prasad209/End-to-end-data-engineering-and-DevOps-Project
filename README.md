@@ -1,3 +1,6 @@
+
+https://github.com/prasad209/End-to-end-data-engineering-and-DevOps-Project/assets/79194792/a3e6c46a-6279-47da-a187-7d629f1b1b47
+
 Aim:This is an ongoing Data engineering+ DevOps projects
 Data from source database is extracted and loaded to a destination database using a python ELT script, the data received
 in this destination database is transfotmed using dbt
