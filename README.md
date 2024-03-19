@@ -1,3 +1,6 @@
+
+https://github.com/prasad209/End-to-end-data-engineering-and-DevOps-Project/assets/79194792/1b112cfb-592e-4fa3-b964-191fd1006504
+
 Aim:This is an ongoing Data engineering+ DevOps projects
 Data from source database is extracted and loaded to a destination database using a python ELT script, the data received
 in this destination database is transfotmed using dbt
@@ -22,3 +25,9 @@ etl: this folder contains a python script for etl which extracts data from sourc
 the script checks connection to databases also. 
 
 docker_compose.yaml:the yaml file states the container services required as stated at the start of this readme doc. it also states the docker network📡 for this project and it's type. 
+
+
+Important points to note while interpreting the dockerfile : Airyte comes with its own docker compose file , so we dont need to include Sirbyte container in our docker compose file , that's why we created a separate docker file to 
+1.docker compose up init-airflow container 
+2.docker compose up -d : to run all the services
+After that we went into directory Airbyte and checked whether the docker compose file exists
