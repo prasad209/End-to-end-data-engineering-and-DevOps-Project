@@ -8,7 +8,7 @@ In total, there are 4 docker containers
 
 Docker 1: consists of source postgresql database
 
-Docker 2:Airbyte container (previously the container was for python ELT script, please refer dbt branch to see for details) 
+Docker 2:Airbyte container (previously the container was for python ELT script, please refer dbt branch to see details) 
 
 Docker 3:consists of destination postgresql database
 
