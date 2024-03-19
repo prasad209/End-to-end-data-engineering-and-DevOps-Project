@@ -4,15 +4,17 @@ https://github.com/prasad209/End-to-end-data-engineering-and-DevOps-Project/asse
 Aim:This is an ongoing Data engineering+ DevOps projects
 Data from source database is extracted and loaded to a destination database using a python ELT script which is later replaced by Airbye, the data received
 in this destination database is transformed using dbt
-In total, there are 4 docker containers
+In total, there are multiple docker containers
 
-Docker 1: consists of source postgresql database
+Docker container 1: consists of source postgresql database
 
-Docker 2:Airbyte container (previously the container was for python ELT script, please refer dbt branch to see details) 
+Docker container 2:Airbyte container (previously the container was for python ELT script, please refer dbt branch to see details) 
 
-Docker 3:consists of destination postgresql database
+Docker container 3:consists of destination postgresql database
 
-Docker 4: dbt
+Docker container 4: dbt
+
+Docker container 5: Airflow 
 
 The project uses
 tech stack: Docker container, python, dbt 
